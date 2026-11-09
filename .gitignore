@@ -12,3 +12,21 @@ venv/
 .env.*
 !.env.example
 .pages/
+
+# 本地 API 密钥文档
+/相关API Key.local.md
+
+# Local reference and process records
+/docs/历史资料/
+/docs/核对清单/
+/docs/协作规范/
+/docs/产品需求/文档一致性清理结果.md
+
+# Relocated local-only material
+**/*API*Key*.local.md
+**/docs/历史资料/
+**/docs/核对清单/
+**/docs/协作规范/
+**/internal/
+**/docs/产品需求/文档一致性清理结果.md
+/3_资料相关/
