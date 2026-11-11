@@ -5,3 +5,7 @@
 img.brand-icon{display:block;object-fit:contain;background:transparent;flex-shrink:0}
 
 .footer-company-info{display:grid;grid-template-columns:1fr;gap:12px}.footer-company-info>div{display:flex;align-items:baseline;gap:16px;line-height:1.7}.footer-company-info .footer-info-label{flex:0 0 64px;opacity:.7}.footer-company-info>div>span:last-child,.footer-company-info a{overflow-wrap:anywhere;min-width:0}
+
+.site-contact-bar{max-width:1440px;margin:0 auto;padding:12px 48px 0;display:flex;justify-content:flex-end;font-size:13px;color:#63715b}.site-contact-bar a{display:inline-flex;align-items:center;gap:12px;padding:4px 0}.site-contact-bar span{color:#85907d}.footer-company-info{font-size:12px;gap:20px;padding-top:30px;margin-top:8px;color:#6f7c65}.footer-company-info>div{gap:24px;line-height:2}.footer-company-info .footer-info-label{flex-basis:72px;opacity:1;color:#85907d}
+@media(max-width:1050px){.site-contact-bar{padding-left:30px;padding-right:30px}}
+@media(max-width:760px){.site-contact-bar{padding:12px 23px 0;font-size:12px}.footer-company-info{font-size:12px;gap:18px;padding-top:26px}.footer-company-info>div{gap:16px}.footer-company-info .footer-info-label{flex-basis:56px}}
